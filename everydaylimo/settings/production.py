@@ -11,3 +11,4 @@ except ImportError:
 # Configure Django App for Heroku.
 import django_heroku
 django_heroku.settings(locals())
+ALLOWED_HOSTS = env('DJANGO_ALLOWED_HOSTS').split(',')
