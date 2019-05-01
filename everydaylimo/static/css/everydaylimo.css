@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "SourceHanSerif";
+  src: url("../fonts/SourceHanSerifK-Regular.otf")
+}
+
+* {
+  font-family: 'SourceHanSerif';
+}
+
+#slider1 {
+  background-image: url("../images/cars/surburban.png");
+  background-position: center; 
+  background-size: contain;
+}
+
+#slider2 {
+  background-image: url("../images/cars/surburban-side.png");
+  background-position: center;
+  background-size: contain;
+}
+
+#about-image{
+  background-image: url("../images/about.jpg")
+}
+
+#driver1 {
+  background-image: url("../images/staff-1.jpg")
+}
+
+#driver2 {
+  background-image: url("../images/staff-2.jpg")
+}
+
+#driver3 {
+  background-image: url("../images/staff-3.jpg")
+}
+
+#driver4 {
+  background-image: url("../images/staff-4.jpg")
+}
