@@ -173,8 +173,10 @@ WAGTAIL_SITE_NAME = "everydaylimo"
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://everydaylimo.com'
 
+SITE_ID = 1
+
 
 
 # Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
+# import django_heroku
+# django_heroku.settings(locals())
